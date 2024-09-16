@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Basket Buddy♥</h2>
+    <form id="register-form">
+        <h2>Register</h2>
+        <input type="text" id="register-username" placeholder="Username" required>
+        <input type="email" id="register-email" placeholder="Email" required>
+        <input type="password" id="register-password" placeholder="Password" required>
+        <button type="submit">Sign Up</button>
+    </form>
+
+    <p>Already have an account? <a href="login.html">Log in here</a></p>
+
+    <script>
+        document.getElementById('register-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const username = document.getElementById('register-username').value;
+            const email = document.getElementById('register-email').value;
+            const password = document.getElementById('register-password').value;
+
+            let users = JSON.parse(localStorage.getItem('users')) || [];
+            const userExists = users.some(user => user.email === email);
+
+            if (userExists) {
+                alert('User with this email already exists!');
+                return;
+            }
+
+            const hashedPassword = btoa(password);
+            const newUser = { username, email, password: hashedPassword };
+            users.push(newUser);
+            localStorage.setItem('users', JSON.stringify(users));
+
+            alert('Registration successful! You can now log in.');
+            window.location.href = 'login.html'; // Redirect to login page
+        });
+    </script>
+</body>
+</html>
