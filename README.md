@@ -4,10 +4,10 @@ Grocery List App
 Basket Buddy♥ is a mobile-friendly application for managing your grocery lists. It allows users to create, manage, and save multiple lists, add items with details and images, and track purchased items.
 
 Table of Contents
-1. Installation
-2. Setup
-3. Usage
-4. Dependencies
+   Installation
+   Setup
+   Usage
+   Dependencies
 
 
 1. Installation
