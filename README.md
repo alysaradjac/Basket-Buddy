@@ -12,11 +12,7 @@ Table of Contents
 
 1. Installation
 Clone this repository to your local machine:
-git clone [repository-url]
-
-Install Dependencies
-Navigate to the project directory:
-cd [repository-name]
+git clone (https://github.com/alysaradjac/Basket-Buddy.git)
 
 2. Setup
 No additional configuration is needed beyond cloning the repository. Simply open index.html in your web browser.
