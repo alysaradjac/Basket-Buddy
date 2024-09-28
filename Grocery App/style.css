@@ -1,3 +1,27 @@
+/* General Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+}
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #4a4a4a;
+}
+
 /* Login&register*/
 h2 {
     text-align: center;
@@ -43,31 +67,6 @@ a:hover {
     text-decoration: underline; /* Underline on hover */
 }
 
-
-
-/* General Styling */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f7fa;
-}
-
-.container {
-    max-width: 400px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-}
-
-h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 24px;
-    color: #4a4a4a;
-}
 
 /* Container for Sort by and Search Bar */
 .controls {
@@ -279,10 +278,6 @@ button:hover {
     padding: 0;
 }
 
-
-
-
-
 /* Media Queries */
 @media (max-width: 600px) {
     #lists-tabs {
@@ -316,12 +311,10 @@ button:hover {
     }
 }
 
-/* Medium devices (tablets) */
 @media (min-width: 768px) and (max-width: 1024px) {
     /* Adjustments for tablets */
 }
 
-/* Large devices (desktops) */
 @media (min-width: 1024px) {
     /* Adjustments for desktops */
 }
