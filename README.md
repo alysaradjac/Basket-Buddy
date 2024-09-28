@@ -28,3 +28,6 @@ This project uses the following technologies:
 HTML: For the structure of the app.
 CSS: For styling the app.
 JavaScript: For functionality and interactivity.
+
+Here is the link for the documentation:
+https://docs.google.com/document/d/1g-wzjJ3LeW4JOFokG_-HNtvfxffneniWn4h2s_oOpX4/edit?usp=sharing
