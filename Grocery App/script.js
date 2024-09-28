@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const itemImage = document.getElementById('item-image');
     const itemImagePreview = document.getElementById('item-image-preview');
     const addItemForm = document.getElementById('add-item-form');
-	const searchBar = document.getElementById('search-bar');
-	const sortSelect = document.getElementById('sort-options');
+    const searchBar = document.getElementById('search-bar');
+    const sortSelect = document.getElementById('sort-options');
     const welcomeMessage = document.getElementById('welcome-message');
     const logoutBtn = document.getElementById('logout-btn');
 
